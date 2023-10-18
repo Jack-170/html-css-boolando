@@ -1,0 +1,104 @@
+/* stili generali */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* stili header */
+header{
+    height: 100px;
+    background-color: orange;
+}
+
+.bar{
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    /* debug rules */
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: brown;
+    
+    
+    
+}
+.nav-gender{
+    width: 30%;
+    height: 100%;
+    /* debug rules */
+    border: 1px solid black;
+    display: inline;
+}
+
+.nav-logo{
+    width: 40%;
+    height: 100%;
+    /* debug rules */
+    border: 1px solid black;
+    display: inline;
+}
+
+.nav-social{
+    width: 30%;
+    height: 100%;
+    /* debug rules */
+    border: 1px solid black;
+    
+}
+/* stili main */
+
+.container{
+    margin: 40px auto;
+    width: 80%;
+    height: 1200px;
+    /* debug rules */
+    border: 1px solid black;
+
+}
+
+.raw{
+    display: flex;
+}
+.col{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+    /* debug rules */
+    border: 1px solid black;
+    background-color: burlywood;
+}
+.label{
+    position: absolute;
+    left: 0;
+    bottom: 70px;
+    /* debug rules */
+    border: 1px solid black;
+    background-color: rgb(222, 135, 135);
+}
+.mid-col{
+    margin: 0 20px ;
+}
+
+.product-info{
+    height: 100px;
+    display: flex;
+    /* debug rules */
+    border: 1px solid black;
+}
+.small-col{
+    width: 400px;
+    height: 100px;
+    padding: 20px;
+    /* debug rules */
+    border: 1px solid black;
+}
+
+footer{
+    background-color: black;
+    height: 150px;
+    display: flex;
+}
