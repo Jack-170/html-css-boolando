@@ -8,57 +8,93 @@
 /* stili header */
 header{
     height: 100px;
-    background-color: orange;
+    background-color: rgb(252, 148, 38);
 }
 
 .bar{
     width: 80%;
     height: 100px;
     margin: auto;
-    /* debug rules */
-    border: 1px solid black;
     display: flex;
     justify-content: center;
     align-content: center;
-    background-color: brown;
-    
-    
-    
+    /* debug rules */
+    /* border: 1px solid black;
+    background-color: brown; */
 }
 .nav-gender{
+    display: flex;
     width: 30%;
     height: 100%;
     /* debug rules */
-    border: 1px solid black;
-    display: inline;
+    /* border: 1px solid black; */
+    /* border: 1px solid white; */
+    
+}
+.content{
+    color: white;
+    padding: 20px;
+
+
 }
 
 .nav-logo{
+    display: flex;
+    justify-content: center;
+    align-content: center;
     width: 40%;
-    height: 100%;
+    height: 40px;
+    margin-top: 20px;
     /* debug rules */
-    border: 1px solid black;
-    display: inline;
+    /* border: 1px solid white; */
+}
+
+.logo{
+    width: 40%;
+    height: 40px;
 }
 
 .nav-social{
+   
     width: 30%;
     height: 100%;
     /* debug rules */
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    /* border: 1px solid white; */
     
 }
-/* stili main */
+.social{
+    color: white;
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+    margin: 5px;
+    
+}
+.card-img-2{
+    width: 100%;
+    height: 500px;
+    display: none;
+}
+
+
+
+/* stili main */ 
+
+
 
 .container{
     margin: 40px auto;
     width: 80%;
     height: 1200px;
     /* debug rules */
-    border: 1px solid black;
+    /* border: 1px solid black; */
 
 }
-
+.card-img{
+    width: 100%;
+    height: 500px;
+}
 .raw{
     display: flex;
 }
@@ -66,19 +102,45 @@ header{
     position: relative;
     width: 400px;
     height: 500px;
-    padding: 20px;
     /* debug rules */
-    border: 1px solid black;
+    /* border: 1px solid black; */
     background-color: burlywood;
 }
 .label{
     position: absolute;
+    padding: 5px 15px;
     left: 0;
     bottom: 70px;
+    font-size: 20px;
     /* debug rules */
-    border: 1px solid black;
-    background-color: rgb(222, 135, 135);
+    /* border: 1px solid black; */
 }
+
+.label-2{
+    position: absolute;
+    padding: 5px 15px;
+    left: 80px;
+    bottom: 70px;
+    font-size: 20px;
+    /* debug rules */
+    /* border: 1px solid black; */
+}
+.bg-red{
+    background-color: red;
+    color: white;
+}
+.bg-green{
+    background-color: green;
+    color: white;
+}
+.red{
+    color: red;
+}
+.line-through{
+    text-decoration: line-through;
+}
+
+
 .mid-col{
     margin: 0 20px ;
 }
@@ -87,18 +149,72 @@ header{
     height: 100px;
     display: flex;
     /* debug rules */
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .small-col{
     width: 400px;
     height: 100px;
-    padding: 20px;
+    font-size: 18px;
     /* debug rules */
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 footer{
-    background-color: black;
-    height: 150px;
+    background-color: rgb(0, 0, 0);
+    height: 250px;
     display: flex;
 }
+
+.heart-container{
+    position: absolute;
+    top: 50px;
+    right: 0;
+    /* debug rules */
+    /* border: 1px solid black; */
+}
+.heart-container:hover .fa-heart{
+    color: red;
+    
+}
+
+.fa-heart{
+    font-size: 20px;
+}
+
+.white{
+    color: white;
+    font-size: 20px;
+}
+.bottom-bar{
+    display: flex;
+    width: 80%;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* debug rules */
+    /* border: 1px solid black;
+    background-color: brown; */
+}
+.bottom-left{
+    width: 50%;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    /* debug rules */
+    /* border: 1px solid white; */
+}
+
+.bottom-right{
+    width: 50%;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    text-align: end;
+    /* border: 1px solid white; */
+
+}
+
+
+
